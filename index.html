@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--DOCTYPE is always necessary. Just after we add "html" so we know the language we're using. 
+In the head section we add the "meta" information that will not be on the page but we will
+find for example in the title-->
+<html>
+        <head>
+            <title>Google Search</title>
+            <link href="style.css" type="text/css" rel="stylesheet">
+<!-- With this link I can add a logo to the tab of the page. The tab is link. We use href to indicate the path.
+Rel to say what it is and Type to say the type of file. In this case it is an image, especifically a jpg-->
+            <link href="Images/google-icon.jpg" rel="icon" type="image/jpg">
+<!--Here should be placed the style.css link. It includes the route of the file, the
+type(text/css) and the relation (rel="stylesheet")-->
+        </head>
+<!--Here we start with what we are actually
+going to see in the webpage-->
+        <body>
+<!--If we need to divide the content and group it we use "div". 
+But Html already has the body generally divided in 3 sections. Header. Main. Footer-->
+            <header>
+<!--If we want to add links, for example in the header of the footer. We can use "nav"
+This section is used for groups of links in a webpage-->
+                <nav>
+<!--<a> is used to link contet to other pages. Since this time it's not necessary, we will use
+# to just create the animation of a hiperlink-->
+                <img style="cursor: pointer;" src="Images/googlelogo.png" alt="GoogleLogo" class="left_icon">
+                
+              <!--<a href=#About class="left">About</a>
+                <a href=#Images class="right">Images</a>
+                <a href=#Store class="left">Store</a>-->
+                <a href=#GoogleApps class="right"><img src="Images/googleappicon.jpg" 
+                alt="Apps" class="app_img"></a>
+                <a href=#Gmail class="right">Gmail</a>
+                <form>
+                        <input type="search" text class="search" placeholder="What you search">
+                    </form>
+                  
+                </nav>            
+            </header>
+            <main>
+                <br></br>
+                <nav>
+                <div class="padding">
+                    <img class="navigation-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRImsd58NdhxJdAveMDMAy728EbPdYd-gz7vVPkk6T2gcBwyVqzbQ" alt="All">
+                    <a href=#All class="what_search">All</a>
+                    <img class="navigation-icon" src="https://cdn1.iconfinder.com/data/icons/modifiers-essential-glyph/48/Sed-32-512.png">
+                    <a href=#Videos class="what_search">Videos</a>
+                    <img class="navigation-icon" src="https://cdn4.iconfinder.com/data/icons/android-11/512/three_dots-512.png">
+                    <a href=#Images class="what_search">Images</a>
+                    <img class="navigation-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwB54EaBC8KjF0vtQtUgOYpRcmK7GYXAFvrG-38UAS0guRuRtJ">
+                    <a href=#Maps class="what_search">Maps</a>
+                    <img class="navigation-icon" src="https://store-images.s-microsoft.com/image/apps.12180.9007199266559864.08b623cf-dfc9-4661-9dd4-b6a9c1d17b73.4f6e80e4-4939-4d0a-9614-f7dc29a25ebb?mode=scale&q=90&h=300&w=300">
+                    <a href=#News class="what_search">News</a>
+                    <img class="navigation-icon" src="https://cdn4.iconfinder.com/data/icons/android-11/512/three_dots-512.png">
+                    <a href=#More class="what_search">More</a>
+                    <a href=#Settings class="what_search">Created by Vicmi-Dev</a>
+                </div>
+            </nav>
+            <hr>
+            <p class="result">About 23,000,023 results (0.23 seconds)</p>
+            <div class="top-result">
+                <b id="title-top-result">Choosing the best online course</b>
+                <ol>
+                    <li >Use <b>Google.</b> It's a very good point to start</li>
+                    <li >Take note of the best recommended sites.</li>
+                    <li >Try some of them and evaluate your experience.</li>
+                    <li >Choose the one that best fits your needs.</li>
+                    <li >Work hard and never give up.</li>
+                </ol>
+                <p class="top-name-result">How to Choose an appropriate online course: the Step-by-Step...</p>
+                <p class="top-domain-result">https://www.onlinecourses.com › best-course</p>
+                <img src="https://elearningindustry.com/wp-content/uploads/2016/09/online-course-development-process-must-know-outsource.jpeg" id="howto-image">
+            </div>
+            
+            <div class="about">
+                <img class="navigation-icon" src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Question-mark-grey.jpg">
+                <p>About it</p>
+                <img class="navigation-icon" src="https://www.searchpng.com/wp-content/uploads/2019/03/Feedback-icon-715x715.png">
+                <p>Comments</p>
+            </div>
+            
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+            <div class="related-questions">
+                <table>
+                    <tr>
+                        <th>Related questions</th>
+                    </tr>
+                    <tr>
+                        <td>What is the best website for online courses?</td>
+                    </tr>
+                    <tr>
+                        <td>What is the best online IT training?</td>
+                    </tr>
+                    <tr>
+                        <td>How can I study online?</td>
+                    </tr>
+                    <tr>
+                        <td>Which online certification is best?</td>
+                    </tr>
+                    <tr>
+                        <td id="last">What certificates can I get online free?</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="video-section">
+                <p>Videos</p>
+                <div class="video-container">
+                    <iframe width="205" height="115" src="https://www.youtube.com/embed/XZ0jvEekbgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>How To Start an Online Course</p>
+                    <p class="video-author">Vicmi-Dev</p>
+                    <p class="youtube">Youtube - <span class="video-date">06 nov. 2019</span></p>
+                </div>
+                <div class="video-container">
+                    <iframe width="205" height="115" src="https://www.youtube.com/watch?v=FUO5TT9T2po" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>How to Find a PROFITABLE Online Course</p>
+                    <p class="video-author">Vicmi-Dev</p>
+                    <p class="youtube">Youtube - <span class="video-date">06 nov. 2019</span></p>
+                </div>
+            </div>
+        
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+            <div class="found">
+                <a class="line1">Title of the result</a>
+                <p class="line2">https://linktotheresult.com</p>
+                <p class="description">Text of the result.Text of the result. Text of the result. Text of the result.
+                </p>
+            </div>
+
+            <div class="r_box">
+                <p class="r_search">Searches related to search topic</p>
+                    <ul class="s_left">
+                        <a href="#"><li >Search 1</li></a>
+                        <a href="#"><li >Search 2</li></a>
+                        <a href="#"><li>Search 3</li></a>
+                        <a href="#"><li >Search 4</li></a>
+                    </ul>
+                    <ul class="s_right">
+                        <a href="#"><li>Search 5</li></a>
+                        <a href="#"><li>Search 6</li></a>
+                        <a href="#"><li >Search 7</li></a>
+                        <a href="#"><li >Search 8</li></a>
+                    </ul>
+            </div>
+            <div class="google-pages">
+                <img src="https://kosherkill.github.io/google-results/assets/google_long.png" width="260px" height="36px">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+                <p>9</p>
+                <p>10</p>
+                <p id="next">Siguiente</p>
+            </div>
+            </main>
+            <footer>
+                <nav>
+                <a href="#Advertising" class="left">Advertising</a>
+                <a href="#business" class="left" >Business</a>
+                <a href="#howsearchworks" class="left" >How Search Works</a>
+                <a href="#settings" class="right" >Settings</a>
+                <a href="#terms" class="right" >Terms</a>
+                <a href="#privacy" class="right" >Privacy</a>
+                </nav>
+            </footer>
+        </body>
+</html>

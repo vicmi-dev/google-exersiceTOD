@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--DOCTYPE is always necessary. Just after we add "html" so we know the language we're using. 
+In the head section we add the "meta" information that will not be on the page but we will
+find for example in the title-->
+<html>
+        <head>
+            <title>Google</title>
+            <link href="style.css" type="text/css" rel="stylesheet">
+<!--Here should be placed the style.css link. It includes the route of the file, the
+type(text/css) and the relation (rel="stylesheet")-->
+        </head>
+<!--Here we start with what we are actually
+going to see in the webpage-->
+        <body>
+<!--If we need to divide the content and group it we use "div". 
+But Html already has the body generally divided in 3 sections. Header. Main. Footer-->
+            <header>
+<!--If we want to add links, for example in the header of the footer. We can use "nav"
+This section is used for groups of links in a webpage-->
+                <nav>
+<!--<a> is used to link contet to other pages. Since this time it's not necessary, we will use
+# to just create the animation of a hiperlink-->
+                <a href=#About class="left">About</a>
+                <a href=#Store class="left">Store</a>
+                <a href=#GoogleApps class="right"><img src="Images/googleappicon.jpg" 
+                alt="Apps" class="app_img"></a>
+                <a href=#Gmail class="right">Gmail</a>
+                <a href=#Images class="right">Images</a>
+                </nav>            
+            </header>
+            <main>
+                <img src="Images/googlelogo.png" alt="GoogleLogo" class="main_img">
+<!--The tag form is used to wrap together different inputs-->
+                <form>
+                <input type="search" class="search">
+<!--Since here we need an intro, we need to use the div tag or alternatively br tag-->
+                <div>
+                <input type="submit" value="Google Search" class="submit">
+                <input type="submit" value="I'm feeling lucky" class="submit">
+                </div>
+                </form>
+            </main>
+            <footer>
+                <nav>
+                <a href="#Advertising" class="left">Advertising</a>
+                <a href="#business" class="left" >Business</a>
+                <a href="#howsearchworks" class="left" >How Search Works</a>
+                <a href="#settings" class="right" >Settings</a>
+                <a href="#terms" class="right" >Terms</a>
+                <a href="#privacy" class="right" >Privacy</a>
+                </nav>
+            </footer>
+        </body>
+</html>

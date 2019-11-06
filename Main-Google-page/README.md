@@ -1,0 +1,4 @@
+This is the second time I try to use html and css language to do this exercise. The purpose has been to imitate the index page of Google.
+ I have done it first following a tutorial from Udemy, but after since I already understood the way it works my next step has been to redo it completely on my own.
+ So this is the final result. I think I still have quite a lot to improve but I hope I've done a close approach to what it was being asked. I have tried to detail the functionality of all the tags that I didn't remembember just for self studying inside the html and css files. I'll try to continue with a more complex structure.
+ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)

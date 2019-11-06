@@ -1,0 +1,118 @@
+/*The stylesheet should be placed within the header of the html file
+<link href="style.css" type="text/css" rel="stylesheet">
+<!--Here should be placed the style.css link. It includes the route of the file, the
+type(text/css) and the relation (rel="stylesheet")-->*/
+body{
+    font-family: arial, sans-serif;
+    background: #fff;
+    color: black;
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #373936;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    /*margin: auto 18px auto auto;*/
+}
+
+.main_img{
+        display: block;
+        margin: 0 auto;
+        padding-top: 160px;
+        padding-left: 30px;
+}
+
+.app_img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 4px;
+}
+
+footer{
+    bottom:0;
+    /*absolute is used to choose that a section is set to be fixed at a determined position 
+    regarding the edges. For example in this case since it is set to bottom 0, it will stick
+    to the bottom as the footer should do.*/
+    position: absolute;
+    opacity: 0.75;
+    /*to indicate that a section has to be full width we have to write it down, otherwise it 
+    won't work*/
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #5F6368;
+    height: 2.5em;
+}
+
+.right{
+    float: right;
+
+}
+
+.left{
+    float: left;
+
+}
+
+/* center search bar, "Google Search", and "I'm Feeling Lucky" */
+form {
+    text-align: center;
+}
+
+/* allocates padding for nav elements */
+
+nav {
+    padding: 15px;
+}
+
+
+/* search bar formatting and style. I need to check some points here to know what they 
+exactly do*/
+
+.search {
+    border-radius: 25px;
+    padding-left:4px;
+    margin-top: 25px;
+    width: 575px;
+    height: 42.5px;
+    border: #dfe1e5 1px solid;
+    
+    background-image:url("https://www.seekclipart.com/clipng/middle/70-709132_search-magnifying-glass-icon-png-grey-clipart.png"), url("https://icon-library.net/images/android-mic-icon/android-mic-icon-8.jpg");
+    background-position: 2% 50%, 98% 50%;
+    background-repeat: no-repeat;
+    background-size: 15px, 25px; 
+      
+}
+
+/* focus wraps search bar and not a rectangle around it after being clicked */
+/*WHATS THIS FOR? NO IDEA*/
+.search:focusbar {
+    outline: none; 
+}
+
+/* spacing of search bar */
+/*WHATS THIS FOR?*/
+.submit {
+    border-radius: 5px;
+    margin: 30px 6px 8px 6px;
+    background-color: #F3F3F3;
+    color: #5F6368;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    font-size: 14px;
+}
+ /*When you go to the buttom it highlights it with a black line around*/
+.submit:hover {
+    border: #5F6368 solid 1px;
+}
+
+/* underlines text upon hovering over "a" links index.html */
+a:hover {
+    text-decoration: underline;
+}
